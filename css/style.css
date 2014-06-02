@@ -1,0 +1,137 @@
+body {
+       overflow: scroll;
+		background: url('../images/green_cup.png') fixed;
+		margin: 40px;
+       padding: 12px;
+		font: 13px/20px normal Helvetica, Arial, sans-serif;
+		color: #3f413a;
+	}
+#contactInfo{
+    float: right;
+    margin-right: 100px;
+    margin-top: -290px;
+    box-shadow: 1px 0 6px 0;
+    padding: 12px;
+    text-align: left;
+}
+form{
+    box-shadow: 1px 0 4px 2px;
+    width: 423px;
+    padding: 12px;
+}
+form input{
+    background: url('http://127.0.0.1/jh/images/sandpaper.png');
+    box-shadow: 0 0 1px .5px;
+    width: 417px;
+    text-align: center;
+    margin: 3px;
+}
+#contactSuccess{
+    color: green;
+}
+#contactError{
+    color: red;
+}
+form textarea{
+    box-shadow: 0 0 1px .5px;
+    margin: 3px;
+    background: url('http://127.0.0.1/jh/images/sandpaper.png');
+}
+	h1 {
+		color: #444;
+        position: fixed;
+        width: 90%;
+		background-color: transparent;
+		font-size: 28px;
+		font-weight: normal;
+        border-bottom: 1px solid #000000;
+		margin: 0px 0 14px 0;
+		padding: 14px 15px 10px 15px;
+	}
+
+	code {
+		font-family: Consolas, Monaco, Courier New, Courier, monospace;
+		font-size: 12px;
+		background: url('../images/sandpaper.png');
+		color: #4F5155;
+		display: block;
+		margin-left: 5%;
+		padding: 12px 10px 12px 10px;
+        box-shadow: 0px 0px 4px 0px #4F5155;
+        width: 40%;
+	}
+
+	#topBody{
+		margin: 0 15px 0 15px;
+	}
+	
+	p.footer{
+		text-align: right;
+		font-size: 11px;
+		border-top: 1px solid #000000;
+		line-height: 32px;
+		padding: 0 10px 0 10px;
+        position: fixed;
+        width: 90%;
+		margin: 20px 0 0 0;
+	}
+    #joshuaIMG{
+        left: 89%;
+        width: 90px;
+        height: 90px;
+        margin-top: -48px;
+        position: fixed;
+    }
+	#nav{
+       width: 8%;
+       margin-left: 33%;
+       position: fixed;
+        padding: 12px;
+        font-size: 18px;
+        margin-top: 55px
+    }
+    #nav a{
+        box-shadow: 1px 0px 4px 1px #999999;
+        padding: 3px;
+        color: #4F5155;
+        font-size: 18px;
+        margin-left: 10%;
+        display: inline;
+        
+
+    }
+    #intro{
+        box-shadow: 1px 0px 4px 1px;
+        padding: 12px;
+        margin-top: 100px;
+        width: 960px;
+        text-align: left;
+        font-size: 15px;
+    }
+    #subcontent{
+        margin-top: 100px;
+        box-shadow: 1px 0px 4px 0px;
+        padding: 12px;
+        width: 960px;
+        height: 500px;
+        overflow: scroll;
+    }
+    html::-webkit-scrollbar { 
+    display: none; 
+}
+	#container{
+	   /*background: url('../images/sandpaper.png');*/
+        padding: 12px;
+		/*-webkit-box-shadow: 0 0 4px #000000;*/
+	}
+/*#wrapperTop{
+    background: #7c836c;
+    width: 92%;
+    height: 100px;
+    opacity: .8;
+    padding: 6px;
+    top: .5%;
+    position: fixed;
+    box-shadow: 0 0 8px 0px;
+    
+}*/
